@@ -13,5 +13,6 @@ public class App {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         ChromeDinosaur chromeDinosaur = new ChromeDinosaur();
+        frame.add(chromeDinosaur);
     }
 }
