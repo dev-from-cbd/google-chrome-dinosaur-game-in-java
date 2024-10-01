@@ -6,7 +6,7 @@ public class App {
         int boardHeight = 250;
 
         JFrame frame = new JFrame("Google Chrome Dinosaur Game in Java");
-        frame.setVisible(true);
+        //frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
