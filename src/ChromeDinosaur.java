@@ -9,5 +9,6 @@ public class ChromeDinosaur extends JPanel {
 
     public ChromeDinosaur(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));
-    };
+        setBackground(Color.LIGHT_GRAY);
+    }
 }
