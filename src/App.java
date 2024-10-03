@@ -1,12 +1,11 @@
 import javax.swing.*;
-
 public class App {
     public static void main(String[] args) throws Exception {
         int boardWidth = 750;
         int boardHeight = 250;
 
-        JFrame frame = new JFrame("Google Chrome Dinosaur Game in Java");
-        //frame.setVisible(true);
+        JFrame frame = new JFrame("Chrome Dinosaur");
+        // frame.setVisible(true);
         frame.setSize(boardWidth, boardHeight);
         frame.setLocationRelativeTo(null);
         frame.setResizable(false);
@@ -15,5 +14,7 @@ public class App {
         ChromeDinosaur chromeDinosaur = new ChromeDinosaur();
         frame.add(chromeDinosaur);
         frame.pack();
+        chromeDinosaur.requestFocus();
+        frame.setVisible(true);
     }
 }
