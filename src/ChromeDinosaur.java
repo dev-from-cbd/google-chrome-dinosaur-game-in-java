@@ -15,6 +15,11 @@ public class ChromeDinosaur extends JPanel {
     Image cactus2Img;
     Image cactus3Img;
 
+    class Block {
+        int x;
+        int y;
+    }
+
     public ChromeDinosaur(){
         setPreferredSize(new Dimension(boardWidth, boardHeight));
         setBackground(Color.LIGHT_GRAY);
